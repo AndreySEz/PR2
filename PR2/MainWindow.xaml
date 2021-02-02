@@ -1,0 +1,19 @@
+﻿<Window x:Class="PR2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="246.341" Width="431.707">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label FontSize="36" Content="Введите число:"></Label>
+        <TextBox FontSize="36" x:Name="numberBox" Grid.Row="1"></TextBox>
+        <Button x:Name="resButton" FontSize="32" Grid.Row="2" Content="Получить резальтат" Click="resButton_Click"></Button>
+    </Grid>
+</Window>
